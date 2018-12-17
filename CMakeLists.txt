@@ -36,7 +36,7 @@ target_compile_options(oboe
     -Wall
     -Wextra-semi
     -Wshadow
-    #-Wshadow-field
+    -Wshadow-field
     -Ofast
     "$<$<CONFIG:DEBUG>:-Werror>")
 
