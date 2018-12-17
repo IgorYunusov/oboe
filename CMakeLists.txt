@@ -35,6 +35,8 @@ target_compile_options(oboe
     -std=c++11
     -Wall
     -Wextra-semi
+    -Wshadow
+    #-Wshadow-field
     -Ofast
     "$<$<CONFIG:DEBUG>:-Werror>")
 
